@@ -4,12 +4,18 @@ ExeFS patch for [Orchid](https://github.com/MythosOfs/Orchid) (also works in oth
 
 Download: [dk-bananza-30fps.zip](dk-bananza-30fps.zip)
 
+## Built into Orchid
+
+Orchid has this patch built in as an option, so you don't need the zip there:
+right-click Donkey Kong Bananza → **Properties → System** → check **Lock to 30 FPS (game patch)**.
+It does the same as this mod, only for the same game version. The option lands with the next Orchid build; until then, or in other emulators, use the zip below.
+
 ## Requirements
 
 - Title ID `040074A01BF12000`
 - Main module build ID `E25C90C1C136638885659FD55BF8A03B3403489D`. On any other game version the patch is not applied and does nothing.
 
-## Install
+## Install the zip
 
 Option A, from inside Orchid:
 
@@ -28,7 +34,7 @@ Result:
 load/040074A01BF12000/30 FPS Lock/exefs/E25C90C1C136638885659FD55BF8A03B3403489D.ips
 ```
 
-To turn it off, uncheck **30 FPS Lock** in the game's Add-Ons tab.
+To turn it off, uncheck **30 FPS Lock** in the game's Add-Ons tab. Use either the mod or the built-in option, not both.
 
 ## What it changes
 
