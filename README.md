@@ -1,23 +1,19 @@
 # Donkey Kong Bananza: 30 FPS Lock
 
-ExeFS patch for [Orchid](https://github.com/MythosOfs/Orchid) (also works in other emulators that load yuzu/Eden-style mods). It makes the game always request swap interval 2, so it runs at a steady 30 fps at normal game speed instead of jumping between 60, 30 and 20 fps.
+ExeFS patch for emulators that load yuzu/Eden-style mods. It makes the game always request swap interval 2, so it runs at a steady 30 fps at normal game speed instead of jumping between 60, 30 and 20 fps.
+
+[Orchid](https://github.com/MythosOfs/Orchid) doesn't need this patch: it is built in there as an option (**Properties → System → Lock to 30 FPS (game patch)**).
 
 Download: [dk-bananza-30fps.zip](dk-bananza-30fps.zip)
-
-## Built into Orchid
-
-Orchid has this patch built in as an option, so you don't need the zip there:
-right-click Donkey Kong Bananza → **Properties → System** → check **Lock to 30 FPS (game patch)**.
-It does the same as this mod, only for the same game version. The option lands with the next Orchid build; until then, or in other emulators, use the zip below.
 
 ## Requirements
 
 - Title ID `040074A01BF12000`
 - Main module build ID `E25C90C1C136638885659FD55BF8A03B3403489D`. On any other game version the patch is not applied and does nothing.
 
-## Install the zip
+## Install
 
-Option A, from inside Orchid:
+Option A, from inside the emulator (Eden and similar):
 
 1. Right-click Donkey Kong Bananza in the game list, then **Properties → Add-Ons**.
 2. Click **Import Mod from ZIP**, pick `dk-bananza-30fps.zip` and confirm the name `30 FPS Lock`.
@@ -26,7 +22,7 @@ Option A, from inside Orchid:
 Option B, by hand:
 
 1. Extract the zip.
-2. Drag the `040074A01BF12000` folder into the emulator's `load` folder (Orchid on Linux: `~/.local/share/eden/load/`; or right-click the game → **Open Mod Data Location** and drop the `30 FPS Lock` folder in there).
+2. Drag the `040074A01BF12000` folder into the emulator's `load` folder (Eden on Linux: `~/.local/share/eden/load/`; or right-click the game → **Open Mod Data Location** and drop the `30 FPS Lock` folder in there).
 
 Result:
 
@@ -34,7 +30,7 @@ Result:
 load/040074A01BF12000/30 FPS Lock/exefs/E25C90C1C136638885659FD55BF8A03B3403489D.ips
 ```
 
-To turn it off, uncheck **30 FPS Lock** in the game's Add-Ons tab. Use either the mod or the built-in option, not both.
+To turn it off, uncheck **30 FPS Lock** in the game's Add-Ons tab.
 
 ## What it changes
 
